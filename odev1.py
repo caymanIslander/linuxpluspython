@@ -17,6 +17,13 @@ uni_list = [addr1, addr2, addr3, addr4, addr5, addr6, addr7, addr8, addr9, addr1
 results = {
 
 }
+
+timings = {
+
+}
+
+all_time = 0
+
 def animation():
     animasyon = ". .. ..."
     while True:
@@ -30,11 +37,18 @@ def animation():
 
 
 def commands():
+    global all_time
     for i in range(len(uni_list)):
         current = uni_list[i]
         command = f"traceroute {current}"
         print(f"Çalıştırılan Komut: {command}")
+        start_time = time.time()
         command_result = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        end_time = time.time()
+        total_time = start_time - end_time
+        all_time += total_time
+        print("\n\n\n\n")
+        print(total_time)
         #print(command_result)
         results.update({current: command_result})
         i+=1
@@ -43,7 +57,8 @@ def commands():
 
 
 commands()
-print(results)
+#print(results)
+print(all_time)
 #result = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
 #if the command is successfully executed
