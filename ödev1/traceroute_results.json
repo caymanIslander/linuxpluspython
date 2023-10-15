@@ -1,0 +1,62 @@
+[
+    {
+        "Location": "www.itu.edu.tr",
+        "Min Delay": 25.07295298576355,
+        "Average Delay": 25.07295298576355,
+        "Max Delay": 25.07295298576355
+    },
+    {
+        "Location": "www.uni-lj.si",
+        "Min Delay": 22.29454755783081,
+        "Average Delay": 22.29454755783081,
+        "Max Delay": 22.29454755783081
+    },
+    {
+        "Location": "www.ut.ee",
+        "Min Delay": 1.5320186614990234,
+        "Average Delay": 1.5320186614990234,
+        "Max Delay": 1.5320186614990234
+    },
+    {
+        "Location": "www.tcd.ie",
+        "Min Delay": 21.16260814666748,
+        "Average Delay": 21.16260814666748,
+        "Max Delay": 21.16260814666748
+    },
+    {
+        "Location": "www.en.ru.is",
+        "Min Delay": 0.038948774337768555,
+        "Average Delay": 0.038948774337768555,
+        "Max Delay": 0.038948774337768555
+    },
+    {
+        "Location": "www.uni.gl",
+        "Min Delay": 16.720227479934692,
+        "Average Delay": 16.720227479934692,
+        "Max Delay": 16.720227479934692
+    },
+    {
+        "Location": "www.ualberta.ca",
+        "Min Delay": 20.75685715675354,
+        "Average Delay": 20.75685715675354,
+        "Max Delay": 20.75685715675354
+    },
+    {
+        "Location": "www.otago.ac.nz",
+        "Min Delay": 15.936838150024414,
+        "Average Delay": 15.936838150024414,
+        "Max Delay": 15.936838150024414
+    },
+    {
+        "Location": "www.kyoto-u.ac.jp",
+        "Min Delay": 27.56974482536316,
+        "Average Delay": 27.56974482536316,
+        "Max Delay": 27.56974482536316
+    },
+    {
+        "Location": "www.harvard.edu",
+        "Min Delay": 25.124084949493408,
+        "Average Delay": 25.124084949493408,
+        "Max Delay": 25.124084949493408
+    }
+]
